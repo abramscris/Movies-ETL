@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this analysis it was exercise the Extract, transform and Load bases, with data extracted from Wikipedia data, Kaggle metadata and the MovieLens rating.
+In this analysis it was exercised the method of extract, transform and Load bases, with data extracted from Wikipedia data, Kaggle metadata and the MovieLens rating.
 
 It as designated the following requirements:
 
@@ -11,18 +11,14 @@ It as designated the following requirements:
 3.	Clean and transform data using Pandas.
 4.	Use regular expressions (Regex) to parse data and to transform text into numbers.
 5.	Load data with PostgreSQL and verify in PgAdmin.
-6.	
-## Extract
-
-On the follow chart it is described the extraction of data on Wikipedia Movies JSON file:
 
 
-## Transform
+In conclusion we verified the information on PgAdmin as follows:
 
-This step we can see the data changes on the images:
+* Movies query
+     
+<img src="https://github.com/abramscris/Movies-ETL/blob/main/Resources/movies_query.png">
 
-# Load
+* Ratings query
 
-At this moment of the analysis we create a new Movie Database
-
-And at the end we verified the information on PgAdmin as follows:
+<img src="https://github.com/abramscris/Movies-ETL/blob/main/Resources/ratings_query.png">
